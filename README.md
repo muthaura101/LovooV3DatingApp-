@@ -1,9 +1,9 @@
 # LovooV3DatingApp-
 LovooV3DatingAppUserProfiles Data Preparation and EDA In MS SQL Server and Python Jupyter
 
-Below Is The Code From Pyhton Which I Used To Remove Duplicates And Save The Results To A New Excel Workbook.
+Below Is The Code From Python Which I Used To Remove Duplicates And Save The Results To A New Excel Workbook.
 -----------------------------------------------------------------------------------
-# Import Library
+### Import Library
 import pandas as pd
 import numpy as np
 
