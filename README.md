@@ -26,16 +26,15 @@ aggregated_df.shape
 -----------------------------------------------------------------------------------
 # Check If There Are Duplicates In The DataFrame named "aggregated_df"
 duplicates = aggregated_df.duplicated(subset="Name")
-
-if duplicates.any():
-    print("Duplicates found in the 'Name' column.")
-else:
-    print("No duplicates found in the 'Name' column.")
+    if duplicates.any(): print("Duplicates found in the 'Name' column.")
+    else: print("No duplicates found in the 'Name' column.")
 -----------------------------------------------------------------------------------    
 # Identify Duplicate Rows In The DataFrame Named "aggregated_df"
 duplicate_rows = aggregated_df[aggregated_df.duplicated(subset="Name", keep=False)]
-  # Display the rows with duplicates in the "Name" column
-  print(duplicate_rows)
+
+# Display the rows with duplicates in the "Name" column
+print(duplicate_rows)
+
 # Since This Doesn't Show Me All The Results, I will Check if There are Null Values Then I will Save The Data To An Excel File To Further Examine It.
 -----------------------------------------------------------------------------------
 # Check If There Is Missing Values Count Per Column
