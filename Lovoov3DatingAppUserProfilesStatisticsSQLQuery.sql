@@ -27,7 +27,7 @@ INNER JOIN LovooV3_DatingApp..users_instances$
 
 --I WILL IMPORT THE RESULTS INTO AN EXCEL WORKBOOK CALLED "DatingApp_Data"--
 
---Remove Duplicates In The New Data. Here I Used Python Jupyter and Saved The Data In Another Workbook Called "CleanDatingApp_Data"--
+--Remove Duplicates In The New Data. Here I Used Python Jupyter and Saved The Data In Another Workbook Called "CleanDatingApp_Data" (Find The Code In The ReadMe File)--
 
 --View the new table "CleanDatingApp_Data" Which I have renamed to "V3_Data$"--
 SELECT *
